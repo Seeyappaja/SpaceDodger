@@ -21,7 +21,7 @@ TODO: Implement stars, Warp Bubbles
 FIX: Collision issues and random crashes when colliding with meteor (Tomášovo verze only)
 
 ## Sprint 4: 11.5.2024
-TODO: Scoring system
+TODO: Scoring system and scoring system
 FIX: Collision issues
 
 ## Sprint 5: 12.5.2024 - 13.5.2024
