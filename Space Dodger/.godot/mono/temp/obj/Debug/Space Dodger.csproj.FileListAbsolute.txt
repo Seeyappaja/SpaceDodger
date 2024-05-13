@@ -1,0 +1,17 @@
+C:\Miroslav Jr\UNI\UTB 4.rok 7.semestr\PO\Space Dodger\.godot\mono\temp\obj\Debug\Space Dodger.csproj.AssemblyReference.cache
+C:\Miroslav Jr\UNI\UTB 4.rok 7.semestr\PO\Space Dodger\.godot\mono\temp\obj\Debug\Space Dodger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Miroslav Jr\UNI\UTB 4.rok 7.semestr\PO\Space Dodger\.godot\mono\temp\obj\Debug\Space Dodger.AssemblyInfoInputs.cache
+C:\Miroslav Jr\UNI\UTB 4.rok 7.semestr\PO\Space Dodger\.godot\mono\temp\obj\Debug\Space Dodger.AssemblyInfo.cs
+C:\Miroslav Jr\UNI\UTB 4.rok 7.semestr\PO\Space Dodger\.godot\mono\temp\obj\Debug\Space Dodger.csproj.CoreCompileInputs.cache
+C:\Miroslav Jr\UNI\UTB 4.rok 7.semestr\PO\Space Dodger\.godot\mono\temp\bin\Debug\Space Dodger.deps.json
+C:\Miroslav Jr\UNI\UTB 4.rok 7.semestr\PO\Space Dodger\.godot\mono\temp\bin\Debug\Space Dodger.runtimeconfig.json
+C:\Miroslav Jr\UNI\UTB 4.rok 7.semestr\PO\Space Dodger\.godot\mono\temp\bin\Debug\Space Dodger.dll
+C:\Miroslav Jr\UNI\UTB 4.rok 7.semestr\PO\Space Dodger\.godot\mono\temp\bin\Debug\Space Dodger.pdb
+C:\Miroslav Jr\UNI\UTB 4.rok 7.semestr\PO\Space Dodger\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Miroslav Jr\UNI\UTB 4.rok 7.semestr\PO\Space Dodger\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Miroslav Jr\UNI\UTB 4.rok 7.semestr\PO\Space Dodger\.godot\mono\temp\obj\Debug\Space Do.E135C877.Up2Date
+C:\Miroslav Jr\UNI\UTB 4.rok 7.semestr\PO\Space Dodger\.godot\mono\temp\obj\Debug\Space Dodger.dll
+C:\Miroslav Jr\UNI\UTB 4.rok 7.semestr\PO\Space Dodger\.godot\mono\temp\obj\Debug\refint\Space Dodger.dll
+C:\Miroslav Jr\UNI\UTB 4.rok 7.semestr\PO\Space Dodger\.godot\mono\temp\obj\Debug\Space Dodger.pdb
+C:\Miroslav Jr\UNI\UTB 4.rok 7.semestr\PO\Space Dodger\.godot\mono\temp\obj\Debug\Space Dodger.genruntimeconfig.cache
+C:\Miroslav Jr\UNI\UTB 4.rok 7.semestr\PO\Space Dodger\.godot\mono\temp\obj\Debug\ref\Space Dodger.dll

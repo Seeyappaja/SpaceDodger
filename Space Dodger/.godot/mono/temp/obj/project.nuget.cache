@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "e5pDHJ7aIAHILGhwc0qf4CpCrel0D5UqhvcLKPhgOjzxgFSc66Fa+cSVhr+66iHRCVnffLku5h71MG2a4e5itg==",
+  "success": true,
+  "projectFilePath": "C:\\Miroslav Jr\\UNI\\UTB 4.rok 7.semestr\\PO\\Space Dodger\\Space Dodger.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mirek\\.nuget\\packages\\godot.sourcegenerators\\4.2.2\\godot.sourcegenerators.4.2.2.nupkg.sha512",
+    "C:\\Users\\mirek\\.nuget\\packages\\godotsharp\\4.2.2\\godotsharp.4.2.2.nupkg.sha512",
+    "C:\\Users\\mirek\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.29\\microsoft.netcore.app.runtime.win-x64.6.0.29.nupkg.sha512",
+    "C:\\Users\\mirek\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.29\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.29.nupkg.sha512",
+    "C:\\Users\\mirek\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.29\\microsoft.aspnetcore.app.runtime.win-x64.6.0.29.nupkg.sha512"
+  ],
+  "logs": []
+}

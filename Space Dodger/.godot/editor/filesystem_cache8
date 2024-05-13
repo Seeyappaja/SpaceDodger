@@ -1,0 +1,15 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1715615949
+bubble.png::CompressedTexture2D::3367725410648836573::1715615949::1715615994::1::::<><>::
+icon.svg::CompressedTexture2D::7995771238227617235::1714412468::1714412481::1::::<><>::
+Meteor.cs::CSharpScript::-1::1715615293::0::1::::<>Sprite2D<>::
+meteor.png::CompressedTexture2D::7050559475228701454::1715434797::1715434830::1::::<><>::
+node_2d_space.tscn::PackedScene::5739840488216313496::1715615354::0::1::::<><>::uid://dm6t638ov3run::::res://star.png<>res://RotatingPlayer.cs<>uid://b2x88t5bf3ytv::::res://spaceship.png<>uid://c7plxjh6br70e::::res://meteor.png<>res://Star.cs<>res://Meteor.cs<>uid://dup562tokkbrg::::res://Sound/m1.mp3
+Star.cs::CSharpScript::-1::1715610153::0::1::::<>Sprite2D<>::
+RotatingPlayer.cs::CSharpScript::-1::1715615349::0::1::::<>Node2D<>::
+spaceship.png::CompressedTexture2D::4331063786564536395::1714415495::1714415498::1::::<><>::
+star.png::CompressedTexture2D::8066734389882789033::1715608316::1715608318::1::::<><>::
+::res://Sound/::1715468667
+go.mp3::AudioStreamMP3::4383696515856381629::1715468667::1715468667::1::::<><>::
+m1.mp3::AudioStreamMP3::8595882907676485052::1715468667::1715468667::1::::<><>::
+warp.wav::AudioStreamWAV::7420623824068714392::1715468667::1715468667::1::::<><>::

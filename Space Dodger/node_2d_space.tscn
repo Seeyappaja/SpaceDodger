@@ -1,0 +1,104 @@
+[gd_scene load_steps=11 format=3 uid="uid://cn1olmm7t7nm3"]
+
+[ext_resource type="Texture2D" uid="uid://dm6t638ov3run" path="res://star.png" id="2_cdm1h"]
+[ext_resource type="Script" path="res://RotatingPlayer.cs" id="2_ngsse"]
+[ext_resource type="Texture2D" uid="uid://b2x88t5bf3ytv" path="res://spaceship.png" id="2_owh8s"]
+[ext_resource type="Texture2D" uid="uid://c7plxjh6br70e" path="res://meteor.png" id="3_884st"]
+[ext_resource type="Script" path="res://Star.cs" id="3_j8c05"]
+[ext_resource type="Script" path="res://Meteor.cs" id="3_p4wp2"]
+[ext_resource type="Texture2D" uid="uid://bn8l7e8immord" path="res://bubble.png" id="4_dabeu"]
+[ext_resource type="Script" path="res://WarpBubble.cs" id="5_d8smx"]
+[ext_resource type="AudioStream" uid="uid://dup562tokkbrg" path="res://Sound/m1.mp3" id="7_lc2yv"]
+
+[sub_resource type="SystemFont" id="SystemFont_t42b5"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("2_ngsse")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -404.0
+offset_top = -369.0
+offset_right = 1186.0
+offset_bottom = 1157.0
+color = Color(0, 0, 0, 1)
+
+[node name="Star" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("2_cdm1h")
+script = ExtResource("3_j8c05")
+
+[node name="Star2" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("2_cdm1h")
+script = ExtResource("3_j8c05")
+
+[node name="Star3" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("2_cdm1h")
+script = ExtResource("3_j8c05")
+
+[node name="Star4" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("2_cdm1h")
+script = ExtResource("3_j8c05")
+
+[node name="Star5" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("2_cdm1h")
+script = ExtResource("3_j8c05")
+
+[node name="Star6" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("2_cdm1h")
+script = ExtResource("3_j8c05")
+
+[node name="WarpBubble" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("4_dabeu")
+script = ExtResource("5_d8smx")
+
+[node name="PlayerSprite" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("2_owh8s")
+
+[node name="Meteor" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("3_884st")
+script = ExtResource("3_p4wp2")
+
+[node name="Meteor2" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("3_884st")
+script = ExtResource("3_p4wp2")
+
+[node name="Meteor3" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("3_884st")
+script = ExtResource("3_p4wp2")
+
+[node name="Theme" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("7_lc2yv")
+autoplay = true
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+
+[node name="High Score" type="Label" parent="."]
+offset_left = 662.0
+offset_top = 748.0
+offset_right = 800.0
+offset_bottom = 800.0
+theme_override_fonts/font = SubResource("SystemFont_t42b5")
+text = "Highscore: 0"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="Current Score" type="Label" parent="."]
+offset_top = 748.0
+offset_right = 138.0
+offset_bottom = 800.0
+theme_override_fonts/font = SubResource("SystemFont_t42b5")
+text = "Score: 0"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
