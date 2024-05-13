@@ -41,7 +41,7 @@ public partial class WarpBubble : Sprite2D
             bubbleRadius = bubbleWidth / 2;
             bubbleRradian = (float)(rnd.Next(0, 361) * (Math.PI / 180));
             bubbleRdegree = (float)(bubbleRradian / (Math.PI / 180));
-            this.Scale = new Vector2(GetViewportRect().Size.X / 6000, GetViewportRect().Size.X / 6000);
+            this.Scale = new Vector2(GetViewportRect().Size.X / 2500, GetViewportRect().Size.X / 2500);
         }
         else if (scoreLabel.Text != "GAME OVER")
         {
@@ -62,7 +62,7 @@ public partial class WarpBubble : Sprite2D
             this.Position = new Vector2(GetViewportRect().Size.X / 2, GetViewportRect().Size.Y / 2);
             bubbleRradian = (float)(rnd.Next(0, 361) * (Math.PI / 180));
             bubbleRdegree = (float)(bubbleRradian / (Math.PI / 180));
-            this.Scale = new Vector2(GetViewportRect().Size.X / 4000, GetViewportRect().Size.X / 4000);
+            this.Scale = new Vector2(GetViewportRect().Size.X / 2500, GetViewportRect().Size.X / 2500);
         }
     }
 
@@ -76,9 +76,6 @@ public partial class WarpBubble : Sprite2D
 
         if ((Math.Abs(position1.Y - position2.Y) <= GetViewportRect().Size.X / 10 && Math.Abs(position1.X - position2.X) <= GetViewportRect().Size.X / 10))
         {
-            GD.Print(position1);
-            GD.Print(position2);
-            //GD.Print("Overlap detected!");
             AudioStream audio = (AudioStream)ResourceLoader.Load("res://Sound/warp.wav");
             GetNode<AudioStreamPlayer2D>("/root/Node2D/AudioStreamPlayer2D").Stream = audio;
             GetNode<AudioStreamPlayer2D>("/root/Node2D/AudioStreamPlayer2D").Play();
@@ -87,7 +84,7 @@ public partial class WarpBubble : Sprite2D
             this.Position = new Vector2(GetViewportRect().Size.X / 2, GetViewportRect().Size.Y / 2);
             bubbleRradian = (float)(rnd.Next(0, 361) * (Math.PI / 180));
             bubbleRdegree = (float)(bubbleRradian / (Math.PI / 180));
-            this.Scale = new Vector2(GetViewportRect().Size.X / 4000, GetViewportRect().Size.X / 4000);
+            this.Scale = new Vector2(GetViewportRect().Size.X / 2500, GetViewportRect().Size.X / 2500);
         }
     }
 }

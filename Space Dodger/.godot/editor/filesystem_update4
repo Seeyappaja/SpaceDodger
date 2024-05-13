@@ -1,1 +1,5 @@
 res://node_2d_space.tscn
+res://Scripts/Meteor.cs
+res://Scripts/WarpBubble.cs
+res://Scripts/RotatingPlayer.cs
+res://Scripts/Star.cs

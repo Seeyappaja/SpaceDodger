@@ -13,6 +13,7 @@ public partial class Meteor : Sprite2D
     private float meteorRdegree;
     Random rnd = new Random();
     private Sprite2D playerSprite;
+    private AnimatedSprite2D explosionSprite;
     private Label scoreLabel;
     private Label highscoreLabel;
 
@@ -29,10 +30,12 @@ public partial class Meteor : Sprite2D
         playerSprite = GetNode<Sprite2D>("/root/Node2D/PlayerSprite");
         scoreLabel = GetNode<Label>("/root/Node2D/Current Score");
         highscoreLabel = GetNode<Label>("/root/Node2D/High Score");
+        explosionSprite = GetNode<AnimatedSprite2D>("/root/Node2D/AnimatedSprite2D");
+        explosionSprite.Play("explode");
     }
 
-	// Called every frame. 'delta' is the elapsed time since the previous frame.
-	public override void _Process(double delta)
+    // Called every frame. 'delta' is the elapsed time since the previous frame.
+    public override void _Process(double delta)
 	{
         if (scoreLabel.Text == "GAME OVER")
         {
@@ -42,9 +45,11 @@ public partial class Meteor : Sprite2D
             meteorRradian = (float)(rnd.Next(0, 361) * (Math.PI / 180));
             meteorRdegree = (float)(meteorRradian / (Math.PI / 180));
             this.Scale = new Vector2(GetViewportRect().Size.X / 6000, GetViewportRect().Size.X / 6000);
+            explosionSprite.Scale = new Vector2(GetViewportRect().Size.X / 200, GetViewportRect().Size.X / 200);
         }
         else if (scoreLabel.Text != "GAME OVER")
         {
+            explosionSprite.GlobalPosition = new Vector2(GetViewportRect().Size.X * -1, GetViewportRect().Size.Y * -1);
             ChangeMeteorPosition();
             CheckForCollission();
         }
@@ -77,9 +82,6 @@ public partial class Meteor : Sprite2D
 
         if ((Math.Abs(position1.Y - position2.Y) <= GetViewportRect().Size.X / 11 && Math.Abs(position1.X - position2.X) <= GetViewportRect().Size.X / 11))
         {
-            GD.Print(position1);
-            GD.Print(position2);
-            //GD.Print("Overlap detected!");
             GetNode<AudioStreamPlayer2D>("/root/Node2D/Theme").Playing = false;
             AudioStream audio = (AudioStream)ResourceLoader.Load("res://Sound/go.mp3");
             GetNode<AudioStreamPlayer2D>("/root/Node2D/AudioStreamPlayer2D").Stream = audio;
@@ -88,6 +90,7 @@ public partial class Meteor : Sprite2D
             {
                 highscoreLabel.Text = "Highscore: " + scoreLabel.Text.Split(" ")[1];
             }
+            explosionSprite.GlobalPosition = position2;
             scoreLabel.Text = "GAME OVER";
         }
     }

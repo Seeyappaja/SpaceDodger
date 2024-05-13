@@ -1,13 +1,44 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1715626678
-export_presets.cfg::TextFile::-1::1715617955::0::1::::<><>::
+::res://::1715632584
+export_presets.cfg::TextFile::-1::1715632307::0::1::::<><>::
 icon.svg::CompressedTexture2D::7995771238227617235::1714412468::1714412481::1::::<><>::
-node_2d_space.tscn::PackedScene::5739840488216313496::1715624951::0::1::::<><>::res://Scripts/RotatingPlayer.cs<>uid://b2x88t5bf3ytv::::res://Textures/spaceship.png<>uid://c7plxjh6br70e::::res://Textures/meteor.png<>res://Scripts/Star.cs<>res://Scripts/Meteor.cs<>uid://bn8l7e8immord::::res://Textures/bubble.png<>uid://u2d60anns8tt::::res://Textures/star3.png<>res://Scripts/WarpBubble.cs<>uid://drwnhr7o48d7w::::res://Textures/star5.png<>uid://wi61rod53203::::res://Textures/star8.png<>uid://b0lj2m3uo523j::::res://Textures/star4.png<>uid://c4mry2rv1g8uk::::res://Textures/star9.png<>uid://dup562tokkbrg::::res://Sound/m1.mp3<>uid://cjrnb2fcfmrbe::::res://Textures/star10.png
-::res://data_Space Dodger_windows_x86_64/::1715617962
-Space Dodger.deps.json::JSON::-1::1715617961::0::1::::<><>::
-Space Dodger.runtimeconfig.json::JSON::-1::1715617961::0::1::::<><>::
-::res://Scripts/::1715620142
-Meteor.cs::CSharpScript::-1::1715620142::0::1::::<>Sprite2D<>::
+node_2d_space.tscn::PackedScene::5739840488216313496::1715632319::0::1::::<><>::res://Scripts/RotatingPlayer.cs<>uid://b2x88t5bf3ytv::::res://Textures/spaceship.png<>res://Scripts/Star.cs<>res://Scripts/Meteor.cs<>uid://bn8l7e8immord::::res://Textures/bubble.png<>uid://u2d60anns8tt::::res://Textures/star3.png<>res://Scripts/WarpBubble.cs<>uid://drwnhr7o48d7w::::res://Textures/star5.png<>uid://wi61rod53203::::res://Textures/star8.png<>uid://b0lj2m3uo523j::::res://Textures/star4.png<>uid://c4mry2rv1g8uk::::res://Textures/star9.png<>uid://dup562tokkbrg::::res://Sound/m1.mp3<>uid://cjrnb2fcfmrbe::::res://Textures/star10.png<>uid://bf4uqb4mex2am::::res://Textures/meteor1.png<>uid://db611e2f7jwv0::::res://Textures/meteor2.png<>uid://bgtrkiup7b2b1::::res://Textures/meteor3.png<>uid://07od625n2aqa::::res://Explosion/expl1.png<>uid://bhuns62enps4n::::res://Explosion/expl2.png<>uid://cmricvh8o3h6n::::res://Explosion/expl3.png<>uid://bwndkpnvq5ow0::::res://Explosion/expl4.png<>uid://3biihk26ofyr::::res://Explosion/expl5.png<>uid://bl6egpeqplvxb::::res://Explosion/expl6.png<>uid://ytbluixftpb5::::res://Explosion/expl7.png<>uid://dsontqqomtd6m::::res://Explosion/expl8.png<>uid://6xoahdmqswi6::::res://Explosion/expl9.png<>uid://bnrvlg1nbuw43::::res://Explosion/expl10.png<>uid://b7ir2ue32h15i::::res://Explosion/expl11.png<>uid://cd21tciah6yhn::::res://Explosion/expl12.png<>uid://c2nml8x2ukdug::::res://Explosion/expl13.png<>uid://bemuwyrecbvd::::res://Explosion/expl14.png<>uid://f7xobe6q23ga::::res://Explosion/expl15.png<>uid://dgm7hsgth8tsk::::res://Explosion/expl16.png<>uid://rh0ljikn0eyo::::res://Explosion/expl17.png<>uid://1xct8oxhaefg::::res://Explosion/expl18.png<>uid://d3tmnf2dwk606::::res://Explosion/expl19.png<>uid://bkmk4bubl74nh::::res://Explosion/expl20.png<>uid://b2als2xwaq4c3::::res://Explosion/expl21.png<>uid://cgp45dyk3pia7::::res://Explosion/expl22.png<>uid://4wklrtlin2er::::res://Explosion/expl23.png<>uid://del05824qbq4o::::res://Explosion/expl24.png<>uid://58ylv28r046f::::res://Explosion/expl25.png<>uid://cae5dpcy6ktl2::::res://Explosion/expl26.png<>uid://crukh62g7gym7::::res://Explosion/expl27.png<>uid://wi5lfem6jr4l::::res://Explosion/expl28.png<>uid://cuyavab1tr7ru::::res://Explosion/expl29.png<>uid://c8ry674du4tr6::::res://Explosion/expl30.png
+::res://data_Space Dodger_windows_x86_64/::1715632310
+Space Dodger.deps.json::JSON::-1::1715632310::0::1::::<><>::
+Space Dodger.runtimeconfig.json::JSON::-1::1715632310::0::1::::<><>::
+::res://Explosion/::1715628550
+expl1.png::CompressedTexture2D::1821638245676238152::1715628497::1715628499::1::::<><>::
+expl2.png::CompressedTexture2D::2919853279570074551::1715628497::1715628499::1::::<><>::
+expl3.png::CompressedTexture2D::5650692335714719719::1715628497::1715628499::1::::<><>::
+expl4.png::CompressedTexture2D::3957612972359369869::1715628497::1715628499::1::::<><>::
+expl5.png::CompressedTexture2D::1967852406292572309::1715628497::1715628499::1::::<><>::
+expl6.png::CompressedTexture2D::3222748051598744619::1715628497::1715628499::1::::<><>::
+expl7.png::CompressedTexture2D::1723836849243532100::1715628497::1715628499::1::::<><>::
+expl8.png::CompressedTexture2D::8452386641854236238::1715628497::1715628499::1::::<><>::
+expl9.png::CompressedTexture2D::2224185251886313175::1715628497::1715628499::1::::<><>::
+expl10.png::CompressedTexture2D::3335265129285412894::1715628497::1715628499::1::::<><>::
+expl11.png::CompressedTexture2D::4650060165409877332::1715628497::1715628499::1::::<><>::
+expl12.png::CompressedTexture2D::5040758786971770691::1715628497::1715628499::1::::<><>::
+expl13.png::CompressedTexture2D::6695527074116941674::1715628497::1715628499::1::::<><>::
+expl14.png::CompressedTexture2D::79211867812404161::1715628497::1715628499::1::::<><>::
+expl15.png::CompressedTexture2D::418425858401913076::1715628497::1715628499::1::::<><>::
+expl16.png::CompressedTexture2D::7607124045845152018::1715628497::1715628499::1::::<><>::
+expl17.png::CompressedTexture2D::1209199040218385702::1715628497::1715628499::1::::<><>::
+expl18.png::CompressedTexture2D::1872547742954133264::1715628497::1715628499::1::::<><>::
+expl19.png::CompressedTexture2D::9164524973997912253::1715628497::1715628499::1::::<><>::
+expl20.png::CompressedTexture2D::3113740694553914117::1715628497::1715628499::1::::<><>::
+expl21.png::CompressedTexture2D::4282220947791891924::1715628497::1715628499::1::::<><>::
+expl22.png::CompressedTexture2D::5226754657270394296::1715628497::1715628499::1::::<><>::
+expl23.png::CompressedTexture2D::2081520512512131725::1715628497::1715628499::1::::<><>::
+expl24.png::CompressedTexture2D::7464298855881740176::1715628497::1715628499::1::::<><>::
+expl25.png::CompressedTexture2D::2175267772807469263::1715628497::1715628499::1::::<><>::
+expl26.png::CompressedTexture2D::4782926537639302813::1715628497::1715628499::1::::<><>::
+expl27.png::CompressedTexture2D::6007960605048160072::1715628497::1715628499::1::::<><>::
+expl28.png::CompressedTexture2D::1562511004968132705::1715628497::1715628499::1::::<><>::
+expl29.png::CompressedTexture2D::6226200810668508814::1715628497::1715628499::1::::<><>::
+expl30.png::CompressedTexture2D::7125681922408461941::1715628497::1715628499::1::::<><>::
+::res://Scripts/::1715630939
+Meteor.cs::CSharpScript::-1::1715630939::0::1::::<>Sprite2D<>::
 RotatingPlayer.cs::CSharpScript::-1::1715619883::0::1::::<>Node2D<>::
 Star.cs::CSharpScript::-1::1715610153::0::1::::<>Sprite2D<>::
 WarpBubble.cs::CSharpScript::-1::1715620031::0::1::::<>Sprite2D<>::
@@ -15,12 +46,11 @@ WarpBubble.cs::CSharpScript::-1::1715620031::0::1::::<>Sprite2D<>::
 go.mp3::AudioStreamMP3::4383696515856381629::1715468667::1715468667::1::::<><>::
 m1.mp3::AudioStreamMP3::8595882907676485052::1715468667::1715468667::1::::<><>::
 warp.wav::AudioStreamWAV::7420623824068714392::1715468667::1715468667::1::::<><>::
-::res://Textures/::1715626678
+::res://Textures/::1715632001
 bubble.png::CompressedTexture2D::3367725410648836573::1715615949::1715619970::1::::<><>::
 meteor1.png::CompressedTexture2D::2798474867182987952::1715626663::1715626678::1::::<><>::
 meteor2.png::CompressedTexture2D::7295071929620083555::1715626663::1715626678::1::::<><>::
 meteor3.png::CompressedTexture2D::2847827421471764112::1715626663::1715626678::1::::<><>::
-meteor.png::CompressedTexture2D::7050559475228701454::1715434797::1715619962::1::::<><>::
 spaceship.png::CompressedTexture2D::4331063786564536395::1714415495::1715619965::1::::<><>::
 star1.png::CompressedTexture2D::3458199605494920608::1715624736::1715624436::1::::<><>::
 star2.png::CompressedTexture2D::8076504397002835816::1715624736::1715624436::1::::<><>::

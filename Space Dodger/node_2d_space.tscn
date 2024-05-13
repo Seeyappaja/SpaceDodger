@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3 uid="uid://cn1olmm7t7nm3"]
+[gd_scene load_steps=49 format=3 uid="uid://cn1olmm7t7nm3"]
 
 [ext_resource type="Script" path="res://Scripts/RotatingPlayer.cs" id="2_ngsse"]
 [ext_resource type="Texture2D" uid="uid://b2x88t5bf3ytv" path="res://Textures/spaceship.png" id="2_owh8s"]
@@ -16,6 +16,134 @@
 [ext_resource type="Texture2D" uid="uid://bf4uqb4mex2am" path="res://Textures/meteor1.png" id="12_82fb1"]
 [ext_resource type="Texture2D" uid="uid://db611e2f7jwv0" path="res://Textures/meteor2.png" id="14_7hj2s"]
 [ext_resource type="Texture2D" uid="uid://bgtrkiup7b2b1" path="res://Textures/meteor3.png" id="15_2oi7v"]
+[ext_resource type="Texture2D" uid="uid://07od625n2aqa" path="res://Explosion/expl1.png" id="16_eb05b"]
+[ext_resource type="Texture2D" uid="uid://bhuns62enps4n" path="res://Explosion/expl2.png" id="17_g46eh"]
+[ext_resource type="Texture2D" uid="uid://cmricvh8o3h6n" path="res://Explosion/expl3.png" id="18_yvl3h"]
+[ext_resource type="Texture2D" uid="uid://bwndkpnvq5ow0" path="res://Explosion/expl4.png" id="19_knhxp"]
+[ext_resource type="Texture2D" uid="uid://3biihk26ofyr" path="res://Explosion/expl5.png" id="20_82urj"]
+[ext_resource type="Texture2D" uid="uid://bl6egpeqplvxb" path="res://Explosion/expl6.png" id="21_po7v7"]
+[ext_resource type="Texture2D" uid="uid://ytbluixftpb5" path="res://Explosion/expl7.png" id="22_7p34l"]
+[ext_resource type="Texture2D" uid="uid://dsontqqomtd6m" path="res://Explosion/expl8.png" id="23_sihax"]
+[ext_resource type="Texture2D" uid="uid://6xoahdmqswi6" path="res://Explosion/expl9.png" id="24_m7pb0"]
+[ext_resource type="Texture2D" uid="uid://bnrvlg1nbuw43" path="res://Explosion/expl10.png" id="25_2mgyc"]
+[ext_resource type="Texture2D" uid="uid://b7ir2ue32h15i" path="res://Explosion/expl11.png" id="26_46vey"]
+[ext_resource type="Texture2D" uid="uid://cd21tciah6yhn" path="res://Explosion/expl12.png" id="27_n8fqq"]
+[ext_resource type="Texture2D" uid="uid://c2nml8x2ukdug" path="res://Explosion/expl13.png" id="28_mls2p"]
+[ext_resource type="Texture2D" uid="uid://bemuwyrecbvd" path="res://Explosion/expl14.png" id="29_1nwh6"]
+[ext_resource type="Texture2D" uid="uid://f7xobe6q23ga" path="res://Explosion/expl15.png" id="30_rn5cr"]
+[ext_resource type="Texture2D" uid="uid://dgm7hsgth8tsk" path="res://Explosion/expl16.png" id="31_el5nh"]
+[ext_resource type="Texture2D" uid="uid://rh0ljikn0eyo" path="res://Explosion/expl17.png" id="32_s8g7f"]
+[ext_resource type="Texture2D" uid="uid://1xct8oxhaefg" path="res://Explosion/expl18.png" id="33_7nxko"]
+[ext_resource type="Texture2D" uid="uid://d3tmnf2dwk606" path="res://Explosion/expl19.png" id="34_y7tji"]
+[ext_resource type="Texture2D" uid="uid://bkmk4bubl74nh" path="res://Explosion/expl20.png" id="35_ibhi3"]
+[ext_resource type="Texture2D" uid="uid://b2als2xwaq4c3" path="res://Explosion/expl21.png" id="36_1wayk"]
+[ext_resource type="Texture2D" uid="uid://cgp45dyk3pia7" path="res://Explosion/expl22.png" id="37_ue2o3"]
+[ext_resource type="Texture2D" uid="uid://4wklrtlin2er" path="res://Explosion/expl23.png" id="38_0ykts"]
+[ext_resource type="Texture2D" uid="uid://del05824qbq4o" path="res://Explosion/expl24.png" id="39_r7q5i"]
+[ext_resource type="Texture2D" uid="uid://58ylv28r046f" path="res://Explosion/expl25.png" id="40_hp1x5"]
+[ext_resource type="Texture2D" uid="uid://cae5dpcy6ktl2" path="res://Explosion/expl26.png" id="41_6o5rb"]
+[ext_resource type="Texture2D" uid="uid://crukh62g7gym7" path="res://Explosion/expl27.png" id="42_8f7lm"]
+[ext_resource type="Texture2D" uid="uid://wi5lfem6jr4l" path="res://Explosion/expl28.png" id="43_xcb14"]
+[ext_resource type="Texture2D" uid="uid://cuyavab1tr7ru" path="res://Explosion/expl29.png" id="44_5cpnc"]
+[ext_resource type="Texture2D" uid="uid://c8ry674du4tr6" path="res://Explosion/expl30.png" id="45_dfngc"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_2r02q"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("16_eb05b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_g46eh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_yvl3h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_knhxp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_82urj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_po7v7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_7p34l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_sihax")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_m7pb0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_2mgyc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_46vey")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_n8fqq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_mls2p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_1nwh6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_rn5cr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_el5nh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_s8g7f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_7nxko")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_y7tji")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_ibhi3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_1wayk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_ue2o3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_0ykts")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_r7q5i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_hp1x5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_6o5rb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_8f7lm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_xcb14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_5cpnc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_dfngc")
+}],
+"loop": true,
+"name": &"explode",
+"speed": 45.0
+}]
 
 [sub_resource type="SystemFont" id="SystemFont_t42b5"]
 
@@ -83,6 +211,13 @@ texture_filter = 1
 texture = ExtResource("15_2oi7v")
 script = ExtResource("3_p4wp2")
 
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(-509, -354)
+sprite_frames = SubResource("SpriteFrames_2r02q")
+animation = &"explode"
+frame_progress = 0.0137549
+
 [node name="Theme" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("7_lc2yv")
 autoplay = true
@@ -90,6 +225,7 @@ autoplay = true
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 
 [node name="High Score" type="Label" parent="."]
+texture_filter = 1
 offset_left = 662.0
 offset_top = 748.0
 offset_right = 800.0
@@ -101,6 +237,7 @@ vertical_alignment = 1
 uppercase = true
 
 [node name="Current Score" type="Label" parent="."]
+texture_filter = 1
 offset_top = 748.0
 offset_right = 138.0
 offset_bottom = 800.0
@@ -109,3 +246,15 @@ text = "Score: 0"
 horizontal_alignment = 1
 vertical_alignment = 1
 uppercase = true
+
+[node name="Tutorial Label" type="RichTextLabel" parent="."]
+texture_filter = 1
+offset_top = 6.0
+offset_right = 800.0
+offset_bottom = 56.0
+bbcode_enabled = true
+text = "[center]Instructions: Press [color=green][SPACE][/color] to move ship. Avoid [color=burlywood][Meteors][/color]. Collect [color=aqua][Warp Bubbles][/color].[/center]
+[center]Press [color=green][SPACE][/color] when dead to play again.[/center]"
+fit_content = true
+scroll_active = false
+shortcut_keys_enabled = false

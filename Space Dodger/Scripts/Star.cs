@@ -38,8 +38,19 @@ public partial class Star : Sprite2D
     {
         await Task.Delay(3 * (int)this.starSpeed);
 
-        this.Position = new Vector2(this.Position.X + (float)Math.Cos(this.starRradian) * this.starSpeed,
+        if (playerSprite != null)
+        {
+            float deltaX = (float)Math.Cos(this.starRradian + playerSprite.GlobalRotation) * starSpeed;
+            float deltaY = (float)Math.Sin(this.starRradian + playerSprite.GlobalRotation) * starSpeed;
+            this.Position = new Vector2(this.Position.X + deltaX, this.Position.Y + deltaY);
+        }
+        else
+        {
+            this.Position = new Vector2(this.Position.X + (float)Math.Cos(this.starRradian) * this.starSpeed,
             this.Position.Y + (float)Math.Sin(this.starRradian) * this.starSpeed);
+        }
+
+
         this.Scale *= 1.04f;
 
         if ((this.Position.X <= 0 || this.Position.X >= GetViewportRect().Size.X) || (this.Position.Y <= 0 || this.Position.Y >= GetViewportRect().Size.Y))
