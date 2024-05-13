@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Miroslav Jr\\UNI\\UTB 4.rok 7.semestr\\PO\\Space Dodger\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4515753C-9B4B-40A4-AB93-CE83635A8721}|Space Dodger.csproj|c:\\miroslav jr\\uni\\utb 4.rok 7.semestr\\po\\space dodger\\rotatingplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4515753C-9B4B-40A4-AB93-CE83635A8721}|Space Dodger.csproj|solutionrelative:rotatingplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4515753C-9B4B-40A4-AB93-CE83635A8721}|Space Dodger.csproj|c:\\miroslav jr\\uni\\utb 4.rok 7.semestr\\po\\space dodger\\meteor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4515753C-9B4B-40A4-AB93-CE83635A8721}|Space Dodger.csproj|solutionrelative:meteor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4515753C-9B4B-40A4-AB93-CE83635A8721}|Space Dodger.csproj|c:\\miroslav jr\\uni\\utb 4.rok 7.semestr\\po\\space dodger\\warpbubble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4515753C-9B4B-40A4-AB93-CE83635A8721}|Space Dodger.csproj|solutionrelative:warpbubble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4515753C-9B4B-40A4-AB93-CE83635A8721}|Space Dodger.csproj|c:\\miroslav jr\\uni\\utb 4.rok 7.semestr\\po\\space dodger\\star.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4515753C-9B4B-40A4-AB93-CE83635A8721}|Space Dodger.csproj|solutionrelative:star.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4515753C-9B4B-40A4-AB93-CE83635A8721}|Space Dodger.csproj|c:\\miroslav jr\\uni\\utb 4.rok 7.semestr\\po\\space dodger\\rotatingplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4515753C-9B4B-40A4-AB93-CE83635A8721}|Space Dodger.csproj|solutionrelative:rotatingplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WarpBubble.cs",
+              "DocumentMoniker": "C:\\Miroslav Jr\\UNI\\UTB 4.rok 7.semestr\\PO\\Space Dodger\\WarpBubble.cs",
+              "RelativeDocumentMoniker": "WarpBubble.cs",
+              "ToolTip": "C:\\Miroslav Jr\\UNI\\UTB 4.rok 7.semestr\\PO\\Space Dodger\\WarpBubble.cs",
+              "RelativeToolTip": "WarpBubble.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAwwFkAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:00:23.916Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -39,26 +56,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "RotatingPlayer.cs",
               "DocumentMoniker": "C:\\Miroslav Jr\\UNI\\UTB 4.rok 7.semestr\\PO\\Space Dodger\\RotatingPlayer.cs",
               "RelativeDocumentMoniker": "RotatingPlayer.cs",
               "ToolTip": "C:\\Miroslav Jr\\UNI\\UTB 4.rok 7.semestr\\PO\\Space Dodger\\RotatingPlayer.cs",
               "RelativeToolTip": "RotatingPlayer.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwDUAAABhAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAmwDkAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-11T20:21:27.385Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Meteor.cs",
               "DocumentMoniker": "C:\\Miroslav Jr\\UNI\\UTB 4.rok 7.semestr\\PO\\Space Dodger\\Meteor.cs",
               "RelativeDocumentMoniker": "Meteor.cs",
               "ToolTip": "C:\\Miroslav Jr\\UNI\\UTB 4.rok 7.semestr\\PO\\Space Dodger\\Meteor.cs",
               "RelativeToolTip": "Meteor.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAowCYAAAAIAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-11T13:52:42.467Z",
               "EditorCaption": ""

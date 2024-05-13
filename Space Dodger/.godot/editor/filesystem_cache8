@@ -1,15 +1,34 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1715615949
-bubble.png::CompressedTexture2D::3367725410648836573::1715615949::1715615994::1::::<><>::
+::res://::1715626678
+export_presets.cfg::TextFile::-1::1715617955::0::1::::<><>::
 icon.svg::CompressedTexture2D::7995771238227617235::1714412468::1714412481::1::::<><>::
-Meteor.cs::CSharpScript::-1::1715615293::0::1::::<>Sprite2D<>::
-meteor.png::CompressedTexture2D::7050559475228701454::1715434797::1715434830::1::::<><>::
-node_2d_space.tscn::PackedScene::5739840488216313496::1715615354::0::1::::<><>::uid://dm6t638ov3run::::res://star.png<>res://RotatingPlayer.cs<>uid://b2x88t5bf3ytv::::res://spaceship.png<>uid://c7plxjh6br70e::::res://meteor.png<>res://Star.cs<>res://Meteor.cs<>uid://dup562tokkbrg::::res://Sound/m1.mp3
+node_2d_space.tscn::PackedScene::5739840488216313496::1715624951::0::1::::<><>::res://Scripts/RotatingPlayer.cs<>uid://b2x88t5bf3ytv::::res://Textures/spaceship.png<>uid://c7plxjh6br70e::::res://Textures/meteor.png<>res://Scripts/Star.cs<>res://Scripts/Meteor.cs<>uid://bn8l7e8immord::::res://Textures/bubble.png<>uid://u2d60anns8tt::::res://Textures/star3.png<>res://Scripts/WarpBubble.cs<>uid://drwnhr7o48d7w::::res://Textures/star5.png<>uid://wi61rod53203::::res://Textures/star8.png<>uid://b0lj2m3uo523j::::res://Textures/star4.png<>uid://c4mry2rv1g8uk::::res://Textures/star9.png<>uid://dup562tokkbrg::::res://Sound/m1.mp3<>uid://cjrnb2fcfmrbe::::res://Textures/star10.png
+::res://data_Space Dodger_windows_x86_64/::1715617962
+Space Dodger.deps.json::JSON::-1::1715617961::0::1::::<><>::
+Space Dodger.runtimeconfig.json::JSON::-1::1715617961::0::1::::<><>::
+::res://Scripts/::1715620142
+Meteor.cs::CSharpScript::-1::1715620142::0::1::::<>Sprite2D<>::
+RotatingPlayer.cs::CSharpScript::-1::1715619883::0::1::::<>Node2D<>::
 Star.cs::CSharpScript::-1::1715610153::0::1::::<>Sprite2D<>::
-RotatingPlayer.cs::CSharpScript::-1::1715615349::0::1::::<>Node2D<>::
-spaceship.png::CompressedTexture2D::4331063786564536395::1714415495::1714415498::1::::<><>::
-star.png::CompressedTexture2D::8066734389882789033::1715608316::1715608318::1::::<><>::
+WarpBubble.cs::CSharpScript::-1::1715620031::0::1::::<>Sprite2D<>::
 ::res://Sound/::1715468667
 go.mp3::AudioStreamMP3::4383696515856381629::1715468667::1715468667::1::::<><>::
 m1.mp3::AudioStreamMP3::8595882907676485052::1715468667::1715468667::1::::<><>::
 warp.wav::AudioStreamWAV::7420623824068714392::1715468667::1715468667::1::::<><>::
+::res://Textures/::1715626678
+bubble.png::CompressedTexture2D::3367725410648836573::1715615949::1715619970::1::::<><>::
+meteor1.png::CompressedTexture2D::2798474867182987952::1715626663::1715626678::1::::<><>::
+meteor2.png::CompressedTexture2D::7295071929620083555::1715626663::1715626678::1::::<><>::
+meteor3.png::CompressedTexture2D::2847827421471764112::1715626663::1715626678::1::::<><>::
+meteor.png::CompressedTexture2D::7050559475228701454::1715434797::1715619962::1::::<><>::
+spaceship.png::CompressedTexture2D::4331063786564536395::1714415495::1715619965::1::::<><>::
+star1.png::CompressedTexture2D::3458199605494920608::1715624736::1715624436::1::::<><>::
+star2.png::CompressedTexture2D::8076504397002835816::1715624736::1715624436::1::::<><>::
+star3.png::CompressedTexture2D::1459753896402145565::1715624736::1715624436::1::::<><>::
+star4.png::CompressedTexture2D::4164445273772252413::1715624736::1715624581::1::::<><>::
+star5.png::CompressedTexture2D::8398691467985312122::1715624736::1715624738::1::::<><>::
+star6.png::CompressedTexture2D::5521361419015314838::1715624736::1715624738::1::::<><>::
+star7.png::CompressedTexture2D::6075384180480640778::1715624736::1715624738::1::::<><>::
+star8.png::CompressedTexture2D::1562599154188221562::1715624736::1715624738::1::::<><>::
+star9.png::CompressedTexture2D::6834166859249898214::1715624736::1715624738::1::::<><>::
+star10.png::CompressedTexture2D::5440427914599898522::1715624736::1715624738::1::::<><>::
